@@ -1,6 +1,9 @@
 passport-negotiate
 ============================
 
+This project based on outdated [dmansfield/passport-negotiate](https://github.com/dmansfield/passport-negotiate) repository.
+other typescript version can be found in [nugaon/passport-kerberos-negotiation](https://github.com/nugaon/passport-kerberos-negotiation)
+
 Negotiate (Kerberos) single-sign-on authentication strategy for Passport.
 
 This [Passport](http://passportjs.org/) strategy implements authentication of users 
