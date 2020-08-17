@@ -69,9 +69,9 @@ module.exports = function(app, passport) {
 			console.log("updating existing user for "+principal);
 		}
 
-		user.email = req.param('email');
-		user.firstName = req.param('firstName');
-		user.lastName = req.param('lastName');
+		user.email = req.params('email');
+		user.firstName = req.params('firstName');
+		user.lastName = req.params('lastName');
 
 		user.save(function(err) {
 			if (err) {
