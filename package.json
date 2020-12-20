@@ -1,6 +1,6 @@
 {
   "name": "passport-negotiate",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Negotiate (kerberos) authentication strategy for Passport.",
   "main": "./lib/passport-negotiate",
   "scripts": {
@@ -23,14 +23,20 @@
     "name": "David Mansfield",
     "email": "dmansfield@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Nir Kovalio",
+      "email": "nirko@rnd-hub.com"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "pkginfo": "^0.4.1",
-    "kerberos": "^1.1.3",
+    "kerberos": "^1.1.4",
     "passport-strategy": "^1.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.1.1s"
   }
 }

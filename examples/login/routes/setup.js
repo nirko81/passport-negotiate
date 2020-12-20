@@ -37,7 +37,7 @@ module.exports = function (app, passport) {
   // user object in our application, in which case we redirect to /manageprofile
   app.get(
     authenticateLocation,
-    passport.authenticate("login", {
+    passport.authenticate(['login'], {
       successRedirect: homeLocation,
       noUserRedirect: "/manageprofile",
     })

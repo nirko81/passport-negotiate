@@ -1,5 +1,6 @@
-var NegotiateStrategy = require("passport-negotiate").Strategy;
-var User = require("../models/user");
+const NegotiateStrategy = require("passport-negotiate").Strategy;
+
+const User = require("../models/user");
 
 module.exports = function (passport) {
   passport.serializeUser(function (user, done) {
